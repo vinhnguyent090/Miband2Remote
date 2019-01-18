@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="DEVICE_MAC"
+        android:title="Device Address" />
+
+    <EditTextPreference
+        android:defaultValue="15"
+        android:inputType="number"
+        android:key="INTERVAL_HEART"
+        android:title="Interval (mins)" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="ENABLE_ALERT"
+        android:summary="When heart rate is out of range will call and message to your family"
+        android:title="Enable alert heart rate" />
+
+
+    <EditTextPreference
+        android:defaultValue="40"
+        android:inputType="number"
+        android:key="HEART_RATE_MIN"
+        android:title="Min of Heart Rate" />
+
+    <EditTextPreference
+        android:defaultValue="100"
+        android:inputType="number"
+        android:key="HEART_RATE_MAX"
+        android:title="Max of Heart Rate" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="phone"
+        android:key="ALERT_CALL"
+        android:title="Phone 1" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="phone"
+        android:key="ALERT_CALL2"
+        android:title="Phone 2" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="phone"
+        android:key="ALERT_CALL3"
+        android:title="Phone 3" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="phone"
+        android:key="ALERT_CALL4"
+        android:title="Phone 4" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="phone"
+        android:key="ALERT_CALL5"
+        android:title="Phone 5" />
+
+</PreferenceScreen>

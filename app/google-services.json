@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "787348679741",
+    "firebase_url": "https://miband2remote.firebaseio.com",
+    "project_id": "miband2remote",
+    "storage_bucket": "miband2remote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787348679741:android:6c86bf260f0056ee",
+        "android_client_info": {
+          "package_name": "com.t090.miband2remote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787348679741-0u5vjjvu16ir9bck2tis13073sa9lfo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKI38jmg1SdNfOMx695OMZyHkJnsUh6GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
